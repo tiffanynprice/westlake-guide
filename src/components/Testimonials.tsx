@@ -81,7 +81,7 @@ export default function Testimonials() {
             <Quote size={48} className="text-black mx-auto mb-6" />
 
             <p className="text-lg md:text-xl text-gray-700 text-center mb-6 italic leading-relaxed">
-              "{currentTestimonial.quote}"
+              {currentTestimonial.quote}
             </p>
 
             <p className="text-center text-black font-semibold">
