@@ -3,7 +3,7 @@ export default function HeroSection() {
     <div className="relative h-[600px] md:h-[700px] overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="/legacyrealestate_361_(2).jpg"
+          src="/updatedhero.jpg"
           alt="Tiffany Price - Westlake Real Estate Agent"
           className="w-full h-full object-cover object-center"
         />
