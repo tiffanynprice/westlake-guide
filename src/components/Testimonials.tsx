@@ -3,9 +3,11 @@ import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 
 interface Testimonial {
-  id: string;
-  client_name: string;
-  testimonial_text: string;
+  id: number;
+  author: string;
+  quote: string;
+  is_active: boolean;
+  display_order:number; 
 }
 
 export default function Testimonials() {
@@ -79,11 +81,11 @@ export default function Testimonials() {
             <Quote size={48} className="text-black mx-auto mb-6" />
 
             <p className="text-lg md:text-xl text-gray-700 text-center mb-6 italic leading-relaxed">
-              "{currentTestimonial.testimonial_text}"
+              "{currentTestimonial.quote}"
             </p>
 
             <p className="text-center text-black font-semibold">
-              — {currentTestimonial.client_name}
+              — {currentTestimonial.author}
             </p>
           </div>
 
