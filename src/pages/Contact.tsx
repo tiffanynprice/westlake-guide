@@ -110,7 +110,7 @@ export default function Contact() {
             </div>
 
             <img
-              src="/image copy copy.png"
+              src="/tiffanygreen.jpg"
               alt="Tiffany Price"
               className="w-56 h-auto rounded-2xl object-cover shadow-lg flex-shrink-0 ml-12"
             />
