@@ -65,7 +65,7 @@ export default function BioSection() {
                 className="h-20 md:h-24 w-auto object-contain"
               />
               <img
-                src="/image copy.png"
+                src="/wcc.jpg"
                 alt="Westlake Chamber of Commerce"
                 className="h-20 md:h-24 w-auto object-contain"
               />
